@@ -87,6 +87,8 @@ public class PlayerMovement : MonoBehaviour
         // When hits a spike or enemy
         if (collision.gameObject.CompareTag("Damage"))
         {
+            UIHolder.playerHealth -= 1;
+
             // Move the player back to the start
             transform.position = startPosition;
         }
