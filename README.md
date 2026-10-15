@@ -1,2 +1,6 @@
-# Game-Team
-User Story Issues for the Game
+# Circute
+**Circute is a single player platforming game that was originally built for a Mohawk's Game Jam. It was was made by first-year students in 2023 as part of an assignment. Now it is being recreated onto unity rather from Raylib**
+## Single Player Platforming Game
+
+## Branching Strategy
+The project uses GitHub Flow due to the size of the team being relatively small. The original design of the game was so that each developer work on their own field depending on their skill set and the group was never more than 6 people. GitHub Flow allows me to work on new features, levels, game mechanics, and import assets on a separate local branch and always have a workable, and testable main branch. By creating separate branches for each task/feature, I can develop and test the feature before merging onto the main branch. This will prevent the game from having unfinished or incorrect changes affecting the entire game. Pull requests allows me and other team members to test, review, and make changes before it is fully merge to the main branch. Github Flow helps keeps track of which feature are done, and which feature still need to be developed. This branching stragetgy keep my design organized and easy to manage while also being appropriate due to the team's size. 
