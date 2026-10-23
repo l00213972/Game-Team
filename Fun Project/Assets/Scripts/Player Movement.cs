@@ -74,11 +74,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (gravityFlipped)
         {
-            rb.gravityScale = -1f;
+            rb.gravityScale = -2f;
         }
         else
         {
-            rb.gravityScale = 1f;
+            rb.gravityScale = 2f;
         }
     }
 
