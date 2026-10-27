@@ -11,6 +11,13 @@ public class ScoreCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       scoreText.text = "Score: " + appleCounter;
+        if (scoreText != null)
+            scoreText.text = "Score: " + appleCounter;
     }
+
+    public static void AddApples()
+    {
+        appleCounter++;
+    }
+
 }
