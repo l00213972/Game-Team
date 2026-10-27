@@ -16,7 +16,7 @@ public class SpriteSpin : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            ScoreCounter.appleCounter++;
+            // ScoreCounter.AddApples(); 
             Destroy(gameObject);
         }
     }
