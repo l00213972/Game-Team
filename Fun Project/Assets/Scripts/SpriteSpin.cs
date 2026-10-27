@@ -11,4 +11,13 @@ public class SpriteSpin : MonoBehaviour
     {
         transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            ScoreCounter.appleCounter++;
+            Destroy(gameObject);
+        }
+    }
 }
